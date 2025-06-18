@@ -86,7 +86,7 @@ class About2 extends React.Component {
                 {/* 2 */}
                 <div className="text-primary mt-icon-box-wraper">
                   <div className="icon-content">
-                    <div className="counter" style={this.outline(50)}>
+                    <div className="counter" style={this.outline(60)}>
                       <CountUp end={8} duration={5} />k
                       <span style={plusStyle}>+</span>
                     </div><br/>
@@ -99,7 +99,7 @@ class About2 extends React.Component {
                 {/* 3 */}
                 <div className="text-primary mt-icon-box-wraper">
                   <div className="icon-content">
-                    <div className="counter" style={this.outline(50)}>
+                    <div className="counter" style={this.outline(60)}>
                       <CountUp end={2} duration={5} />k
                       <span style={plusStyle}>+</span>
                     </div><br/>
@@ -112,7 +112,7 @@ class About2 extends React.Component {
                 {/* 4 */}
                 <div className="text-primary mt-icon-box-wraper">
                   <div className="icon-content">
-                    <div className="counter" style={this.outline(50)}>
+                    <div className="counter" style={this.outline(60)}>
                       <CountUp end={6} duration={5} />k
                       <span style={plusStyle}>+</span>
                     </div><br/>
