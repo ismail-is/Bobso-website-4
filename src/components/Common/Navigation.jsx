@@ -71,7 +71,7 @@ class Navigation extends React.Component {
                                
                                   <li><NavLink to={"/Engineering"}>Engineering Design Services</NavLink></li>
                                                                            <li><NavLink to={"/Oil"}>Oil & Gas Energy</NavLink></li>
-                                                                           <li><NavLink to={"/Industrial"}>Industrial Construction</NavLink></li>
+                                                                           <li><NavLink to={"/Construction"}>Industrial Construction</NavLink></li>
                                                                            <li><NavLink to={"/Automation"}>Automation Industry</NavLink></li>
                                                                            <li><NavLink to={"/Renewable"}>Renewable energy</NavLink></li>
                                                                            <li><NavLink to={"/Manufacturing"}>Manufacturing</NavLink></li>

@@ -34,7 +34,7 @@ class Home extends React.Component {
                     <OurValue2/>
                     <About2/>
                     <Specialization3/>
-                    <ProjectCarousel/>
+                    {/* <ProjectCarousel/> */}
                     <ProjectClassic1/>
                     {/* <Specialization3/> */}
                     <Callus2/>

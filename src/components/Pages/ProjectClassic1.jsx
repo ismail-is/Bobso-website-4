@@ -18,8 +18,8 @@ const filters = [
 const projects = [
 
  {
-        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        thumb: require('./../../images/all bobsco/ourservices/1.webp'),
+        image: require('./../../images/all bobsco/ourservices/1.webp'),
         title: 'Engineering Design Services',
         description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
         filter: 'cat-1',
@@ -27,32 +27,32 @@ const projects = [
     },
 
     {
-        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        thumb: require('./../../images/all bobsco/ourservices/2.webp'),
+        image: require('./../../images/all bobsco/ourservices/2.webp'),
         title: ' Oil & Gas Energy',
         description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
         filter: 'cat-1',
         url:'Oil'
     },
-    // {
-    //     thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-    //     image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-    //     title: ' Industrial Construction',
-    //     description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
-    //     filter: 'cat-1',
-    //     url:'Industrial'
-    // },
     {
-        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        thumb: require('./../../images/all bobsco/ourservices/3.webp'),
+        image: require('./../../images/all bobsco/ourservices/3.webp'),
+        title: ' Industrial Construction',
+        description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
+        filter: 'cat-1',
+        url:'Construction'
+    },
+    {
+        thumb: require('./../../images/all bobsco/ourservices/4.webp'),
+        image: require('./../../images/all bobsco/ourservices/4.webp'),
         title: '  Automation Industry',
         description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
         filter: 'cat-1',
         url:'Automation'
     },
     {
-        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        thumb: require('./../../images/all bobsco/ourservices/5.webp'),
+        image: require('./../../images/all bobsco/ourservices/5.webp'),
         title: ' Manufacturing',
         description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
         filter: 'cat-1',
@@ -78,22 +78,7 @@ const projects = [
 
 
 
-    {
-        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
-        title: 'Coating/Painting & Sand blasting',
-        description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
-        filter: 'cat-1',
-        url:'Coating'
-    },
-    {
-        thumb: require('./../../images/all bobsco/ourservices/Industrial Mechanical & Electrical Works.webp'),
-        image: require('./../../images/all bobsco/ourservices/Industrial Mechanical & Electrical Works.webp'),
-        title: 'Industrial Mechanical & Electrical Works',
-        description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
-        filter: 'cat-2',
-        url:'Mechanical'
-    },
+   
     {
         thumb: require('./../../images/all bobsco/ourservices/Refrigeration.webp'),
         image: require('./../../images/all bobsco/ourservices/Refrigeration.webp'),
@@ -125,6 +110,22 @@ const projects = [
         description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
         filter: 'cat-4',
          url:'Steel'
+    },
+     {
+        thumb: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        image: require('./../../images/all bobsco/ourservices/Coating, Painting & Sand blasting.webp'),
+        title: 'Coating/Painting & Sand blasting',
+        description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
+        filter: 'cat-1',
+        url:'Coating'
+    },
+    {
+        thumb: require('./../../images/all bobsco/ourservices/Industrial Mechanical & Electrical Works.webp'),
+        image: require('./../../images/all bobsco/ourservices/Industrial Mechanical & Electrical Works.webp'),
+        title: 'Industrial Mechanical & Electrical Works',
+        description: 'This is ipsum dolor sitamet, consectetur adipisi cing elito, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..',
+        filter: 'cat-2',
+        url:'Mechanical'
     },
    
 ]
@@ -161,8 +162,10 @@ class ProjectClassic1 extends React.Component {
                     
                     {/* SECTION CONTENT START */}
                     <div className="section-full p-tb80 bg-gray inner-page-padding">
+                        
                         {/* GALLERY CONTENT START */}
                         <div className="container-fluid">
+                            
                             {/* PAGINATION START */}
                             {/* <div className="filter-wrap p-b30 text-center">
                                 <ul className="filter-navigation inline-navigation masonry-filter link-style  text-uppercase">
@@ -174,11 +177,20 @@ class ProjectClassic1 extends React.Component {
                             </div> */}
                             {/* PAGINATION END */}
                             {/* GALLERY CONTENT START */}
+                             <div className="section-head" >
+                                    <div className="mt-separator-outer separator-center" >
+                                        <div className="mt-separator">
+                                            <h2 className="text-uppercase sep-line-one ">Core Capabilities  <span style={{color:'#E81D21'}}>& Services</span> </h2>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
                             <div className="portfolio-wrap mfp-gallery work-grid row clearfix">
+                                
                                 {projects.map((item, index) => (
-                                    <div key={index} className={`${item.filter} masonry-item col-lg-4 col-md-4 col-sm-6 m-b30`}>
+                                    <div key={index} className={`${item.filter} masonry-item col-lg-3 col-md-4 col-sm-6 m-b30`}>
                                         <div className="project-classic">
-                                            <div className="mt-box ">
+                                            <div className="mt-box " >
                                                 <div className="mt-thum-bx  img-center-icon  mt-img-overlay2">
                                                     <img src={item.thumb} alt="" />
                                                     {/* <div className="overlay-bx">
@@ -193,7 +205,7 @@ class ProjectClassic1 extends React.Component {
                                                     </div> */}
                                                 </div>
                                             </div>
-                                            <div className="mt-info p-t20">
+                                            <div className="mt-info p-t20" >
                                               <NavLink to={item.url}>  <h4 className="mt-title m-b20 m-t0" data-hover={item.title}>{item.title}</h4></NavLink>
                                                 {/* <p>{item.description}</p> */}
                                                 {/* <NavLink to={"/project-detail"} className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink> */}
@@ -212,7 +224,7 @@ class ProjectClassic1 extends React.Component {
                     {/* SECTION CONTENT END  */}
                 </div>
 
-                <Footer />
+                {/* <Footer /> */}
             </>
         );
     };
