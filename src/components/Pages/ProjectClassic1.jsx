@@ -188,7 +188,7 @@ class ProjectClassic1 extends React.Component {
                             <div className="portfolio-wrap mfp-gallery work-grid row clearfix">
                                 
                                 {projects.map((item, index) => (
-                                    <div key={index} className={`${item.filter} masonry-item col-lg-3 col-md-4 col-sm-6 m-b30`}>
+                                    <div key={index} className={`${item.filter} masonry-item col-lg-4 col-md-4 col-sm-6 m-b30`}>
                                         <div className="project-classic">
                                             <div className="mt-box " >
                                                 <div className="mt-thum-bx  img-center-icon  mt-img-overlay2">
